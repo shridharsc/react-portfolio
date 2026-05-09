@@ -35,8 +35,7 @@ export default function App() {
         </div>
 
         <img
-          src="./myphoto.jpg"
-          alt="profile"
+          src={`${process.env.PUBLIC_URL}/myphoto.jpg`}
           className="rounded-full mt-10 md:mt-0 photoSize"
         />
       </section>

@@ -36,6 +36,7 @@ export default function App() {
 
         <img
           src={`${process.env.Host_URL}myphoto.jpg`}
+          alt=""
           className="rounded-full mt-10 md:mt-0 photoSize"
         />
       </section>

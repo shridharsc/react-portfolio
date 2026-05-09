@@ -35,7 +35,7 @@ export default function App() {
         </div>
 
         <img
-          src={`${process.env.PUBLIC_URL}/myphoto.jpg`}
+          src={`${process.env.Host_URL}myphoto.jpg`}
           className="rounded-full mt-10 md:mt-0 photoSize"
         />
       </section>

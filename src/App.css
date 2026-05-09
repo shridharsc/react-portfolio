@@ -1,41 +1,4 @@
-/* .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 @tailwind base;
 @tailwind components;
@@ -48,4 +11,86 @@ body {
 .photoSize {
       width: 24%;
     margin-right: 10%;
+}
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020617;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.photoSize {
+  width: 350px;
+  height: 350px;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .photoSize {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+  nav {
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  h1 {
+    line-height: 1.2;
+  }
+
+  .photoSize {
+    width: 220px;
+    height: 220px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+
+  .photoSize {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
 }

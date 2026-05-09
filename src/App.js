@@ -35,7 +35,8 @@ export default function App() {
         </div>
 
         <img
-          src={`${process.env.PUBLIC_URL}/public/myphoto.jpg`}
+          // src={`${process.env.PUBLIC_URL}/myphoto.jpg`}
+          src='/react-portfolio/myphoto.jpg'
           alt=""
           className="rounded-full mt-10 md:mt-0 photoSize"
         />

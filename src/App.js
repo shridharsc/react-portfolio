@@ -61,16 +61,20 @@ export default function App() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
-            <button className="bg-blue-500 hover:bg-blue-600 transition px-8 py-3 rounded-xl font-semibold shadow-lg">
+            <a
+              href="#projects"
+              className="bg-blue-500 hover:bg-blue-600 transition px-8 py-3 rounded-xl font-semibold shadow-lg inline-block"
+            >
               View Projects
-            </button>
+            </a>
 
-            <button 
-            href={`${process.env.PUBLIC_URL}/Shridhar_Chougule_updated_CV.pdf`}
-            download="Shridhar_Chougule_updated_CV.pdf"
-            className="border border-blue-400 hover:bg-blue-400 hover:text-black transition px-8 py-3 rounded-xl font-semibold">
+            <a
+              href={`${process.env.PUBLIC_URL}/Shridhar_Chougule_updated_CV.pdf`}
+              download
+              className="border border-blue-400 hover:bg-blue-400 hover:text-black transition px-8 py-3 rounded-xl font-semibold inline-block"
+            >
               Download Resume
-            </button>
+            </a>
 
           </div>
         </div>

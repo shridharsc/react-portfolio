@@ -47,7 +47,7 @@ export default function App() {
             </a>
 
             <a
-              href={`${process.env.PUBLIC_URL}/Shridhar_Chougule_CV.pdf`}
+              href={`${process.env.PUBLIC_URL}/Shridhar_Chougule_updated_CV.pdf`}
               download
               className="border border-blue-400 hover:bg-blue-400 hover:text-black transition px-8 py-3 rounded-xl font-semibold inline-block"
             >

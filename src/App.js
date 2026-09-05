@@ -50,7 +50,7 @@ export default function App() {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-300 mb-6">
-            Senior Software Engineer | Angular | React | Node.js | AI
+            Senior Software Engineer | Angular | React | Node.js
           </p>
 
           <p className="text-gray-400 leading-8 mb-8 text-sm md:text-lg">
@@ -100,12 +100,13 @@ export default function App() {
         </h2>
 
         <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-4xl">
-          Results-driven Software Developer with 5+ years of experience
-          in full-stack development specializing in Angular, React,
-          Node.js, JavaScript, PostgreSQL, and cloud-based solutions.
+          Results-driven Software Engineer with 5+ years of experience in
+          full-stack development specializing in Angular, React, Node.js,
+          TypeScript, JavaScript, PostgreSQL, REST APIs, AWS and Docker.
           Experienced in building scalable enterprise applications,
-          REST APIs, AI-powered chatbot integrations, and performance
-          optimization.
+          reusable Angular components, dynamic forms, authentication and
+          authorization systems. Also experienced in AI-powered solutions
+          using LLM, RAG, AI Agents and Flowise.
         </p>
       </section>
 

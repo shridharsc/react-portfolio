@@ -50,7 +50,7 @@ export default function App() {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-300 mb-6">
-            Senior Software Engineer | Angular | React | Node.js
+            Senior Software Engineer | Angular | React | Node.js | AI
           </p>
 
           <p className="text-gray-400 leading-8 mb-8 text-sm md:text-lg">
@@ -126,16 +126,27 @@ export default function App() {
             "React",
             "JavaScript",
             "TypeScript",
+            "HTML5",
+            "CSS",
+            "SCSS",
+            "Tailwind CSS",
+            "Redux",
             "Node.js",
+            "REST API",
             "PostgreSQL",
             "MongoDB",
             "AWS",
             "Docker",
-            "Redux",
-            "REST API",
-            "HTML5",
-            "CSS",
+            "LLM",
+            "RAG",
+            "AI Agents",
+            "Flowise",
+            "Generative AI",
+            "AI Chatbot",
+            "Jasmine",
+            "Karma",
             "Git",
+            "GitHub",
           ].map((skill) => (
             <span
               key={skill}

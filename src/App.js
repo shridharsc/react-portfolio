@@ -100,13 +100,12 @@ export default function App() {
         </h2>
 
         <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-4xl">
-          Results-driven Software Engineer with 5+ years of experience in
-          full-stack development specializing in Angular, React, Node.js,
-          TypeScript, JavaScript, PostgreSQL, REST APIs, AWS and Docker.
+          Results-driven Software Developer with 5+ years of experience
+          in full-stack development specializing in Angular, React,
+          Node.js, JavaScript, PostgreSQL, and cloud-based solutions.
           Experienced in building scalable enterprise applications,
-          reusable Angular components, dynamic forms, authentication and
-          authorization systems. Also experienced in AI-powered solutions
-          using LLM, RAG, AI Agents and Flowise.
+          REST APIs, AI-powered chatbot integrations, and performance
+          optimization.
         </p>
       </section>
 

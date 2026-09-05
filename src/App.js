@@ -2,6 +2,14 @@ import React from "react";
 import "./App.css";
 // import myphoto from "./assets/myPhoto.jpg";
 
+const aboutText = `Results-driven Software Engineer with 5+ years of experience in
+full-stack development specializing in Angular, React, Node.js,
+TypeScript, JavaScript, PostgreSQL, REST APIs, AWS and Docker.
+Experienced in building scalable enterprise applications,
+reusable Angular components, dynamic forms, authentication and
+authorization systems. Also experienced in AI-powered solutions
+using LLM, RAG, AI Agents and Flowise.`;
+
 export default function App() {
   return (
     <div className="bg-slate-950 text-white min-h-screen font-sans overflow-x-hidden">
@@ -53,16 +61,8 @@ export default function App() {
             Senior Software Engineer | Angular | React | Node.js
           </p>
 
-          <p className="text-gray-400 leading-8 mb-8 text-sm md:text-lg">
-            <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-5xl">
-            {`Results-driven Software Engineer with 5+ years of experience in
-            full-stack development specializing in Angular, React, Node.js,
-            TypeScript, JavaScript, PostgreSQL, REST APIs, AWS and Docker.
-            Experienced in building scalable enterprise applications,
-            reusable Angular components, dynamic forms, authentication and
-            authorization systems. Also experienced in AI-powered solutions
-            using LLM, RAG, AI Agents and Flowise.`}
-          </p>
+          <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-5xl mb-4">
+            {aboutText}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

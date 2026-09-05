@@ -102,7 +102,10 @@ export default function App() {
         <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-4xl">
           Results-driven Software Developer with 5+ years of experience
           in full-stack development specializing in Angular, React,
-          Node.js, JavaScript, PostgreSQL, REST APIs, AWS and Docker.
+          Node.js, JavaScript, PostgreSQL, and cloud-based solutions.
+          Experienced in building scalable enterprise applications,
+          REST APIs, AI-powered chatbot integrations, and performance
+          optimization.
         </p>
       </section>
 

@@ -100,7 +100,12 @@ export default function App() {
         </h2>
 
         <p className="text-gray-300 leading-8 text-sm md:text-lg max-w-4xl">
-          Results-driven Software Engineer with 5+ years of full-stack experience across Angular, React, Node.js, TypeScript, PostgreSQL, AWS, and Docker. Proven track record of building scalable enterprise systems, reusable UI components, and secure auth workflows, alongside hands-on expertise in AI-powered solutions like LLM, RAG, and AI Agents.
+          Results-driven Software Developer with 5+ years of experience
+          in full-stack development specializing in Angular, React,
+          Node.js, JavaScript, PostgreSQL, and cloud-based solutions.
+          Experienced in building scalable enterprise applications,
+          REST APIs, AI-powered chatbot integrations, and performance
+          optimization.
         </p>
       </section>
 
@@ -121,16 +126,27 @@ export default function App() {
             "React",
             "JavaScript",
             "TypeScript",
+            "HTML5",
+            "CSS",
+            "SCSS",
+            "Tailwind CSS",
+            "Redux",
             "Node.js",
+            "REST API",
             "PostgreSQL",
             "MongoDB",
             "AWS",
             "Docker",
-            "Redux",
-            "REST API",
-            "HTML5",
-            "CSS",
+            "LLM",
+            "RAG",
+            "AI Agents",
+            "Flowise",
+            "Generative AI",
+            "AI Chatbot",
+            "Jasmine",
+            "Karma",
             "Git",
+            "GitHub",
           ].map((skill) => (
             <span
               key={skill}

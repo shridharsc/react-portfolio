@@ -68,25 +68,25 @@ export default function App() {
               View Projects
             </a>
 
-            <a
+            {/* <a
               href={`${process.env.PUBLIC_URL}/Shridhar_Chougule_updated_CV.pdf`}
               download
               className="border border-blue-400 hover:bg-blue-400 hover:text-black transition px-8 py-3 rounded-xl font-semibold inline-block"
             >
               Download Resume
-            </a>
+            </a> */}
 
           </div>
         </div>
 
         {/* Right */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <img
             src={`${process.env.PUBLIC_URL}/myPhoto.jpg`}
             alt=""
             className="w-52 h-52 sm:w-72 sm:h-72 md:w-80 md:h-80 object-cover rounded-full border-4 border-blue-500 shadow-2xl"
           />
-        </div>
+        </div> */}
       </section>
 
       {/* About */}

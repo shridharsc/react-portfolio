@@ -1,9 +1,5 @@
 {
-  "version": 2,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/App.js"
-    }
+    { "source": "/((?!static/).*)", "destination": "/index.html" }
   ]
 }
